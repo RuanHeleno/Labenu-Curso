@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Forms</title>
+  </head>
+  <body>
+    <h2>Formulários</h2>
+
+    <form action="#">
+      <label for="nome">Nome: </label>
+      <input type="text" name="nome" id="nome" required/>
+      <br /><br />
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" name="endereco" id="endereco" />
+      <br /><br />
+
+      <label for="numero">N°:</label>
+      <input type="number" name="numero" id="numero" />
+      <br /><br />
+
+      <label for="data">Data:</label>
+      <input type="date" name="data" id="data" />
+      <br /><br />
+
+      <label>
+        Gênero: <input type="radio" name="genero" value="F" />Feminino
+        <input type="radio" name="genero" value="M" /> Masculino
+        <input type="radio" name="genero" value="NB" /> Não-binário
+      </label>
+      <br /><br />
+
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" id="email" required>
+      <br><br>
+
+      <textarea placeholder="Escreva aqui a sua mensagem" cols="50" rows="5"></textarea>
+      <br>
+
+      <button type="submit">Enviar</button>
+
+      <h3><a href="./tags-especiais.html">Voltar para a página principal</a></h3>
+    </form>
+  </body>
+</html>

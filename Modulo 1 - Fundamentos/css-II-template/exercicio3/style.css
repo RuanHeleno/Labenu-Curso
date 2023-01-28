@@ -1,0 +1,50 @@
+button {
+    height: 10vh;
+    width: 25vw;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+button:active {
+    background-color: pink;
+    color: red;
+    border: none;
+}
+
+div {
+    background-color: chartreuse;
+    width: 15vw;
+    margin: 0 auto;
+}
+
+span {
+    background-color: aqua;
+    width: 20vw;
+    height: 20vh;
+    display: block;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    height: 10vh;
+    width: 15vw;
+    margin-left: 5em;
+    
+}
+
+li:nth-child(1) {
+    background-color: lightblue;
+}
+
+li:nth-child(2) {
+    background-color: lightcoral;
+}
+
+li:nth-child(3) {
+    background-color: lightgreen;
+}

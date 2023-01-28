@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+
+}
+
+section {
+    border: 1px solid black;
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+    main {
+        background-color: yellowgreen;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    main {
+        background-color: lightcoral;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

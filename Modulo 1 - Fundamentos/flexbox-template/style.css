@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: lightgray;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+header section button {
+    padding: .5rem;
+    background-color: transparent;
+    border: 1px solid darkgoldenrod;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 500ms ease-in-out;
+    border-radius: 10px;
+}
+
+header section button:hover {
+    background-color: darkgoldenrod;
+    border: 1px solid transparent;
+}
+
+main {
+    height: 80vh;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+main .container {
+    width: 20%;
+    border: 1px solid black;
+    height: 100%;
+}
+
+main .container .card {
+    height: 100%;
+}
+
+main .container .card figure {
+    text-align: center;
+}
+
+main .container .card figure img {
+    width: 100%;
+}
+
+main .container .card .text {
+    text-align: justify;
+    padding: 0 1rem;
+}
+
+
+/*main .meio {
+    flex-grow: 3;
+    border: 1px solid black;
+    padding: 0 1rem;
+}
+
+main .direita {
+    flex-grow: 1;
+}
+
+main .esquerda {
+    flex-grow: 2;
+}
+
+main .container .card {
+    height: 160px;
+    width: 160px;
+} */
+
+footer {
+    height: 10vh;
+    background-color: lightgray;
+}

@@ -1,0 +1,33 @@
+main {
+    font-family: 'Helvetica';
+}
+
+main section .bloco {
+    border: 1px solid black;
+    width: 20%;
+    margin-bottom: 2rem;
+    padding: 0rem .5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+main section #bloco-1 {
+    background-color: orange;
+    border: 6px solid orangered;
+}
+
+main section #bloco-2 {
+    background-color: green;
+    border: 6px solid lightgreen;
+}
+
+main section #bloco-3 {
+    background-color: darkgreen;
+    border: 6px dashed green;
+}
+
+main section #bloco-4 {
+    background-color: red;
+    border: 6px dashed orange;
+}

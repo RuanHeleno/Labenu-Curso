@@ -1,0 +1,28 @@
+header #titulo-importante {
+    background-color: blue;
+    color: white;
+}
+
+main .sub-titulo {
+    background-color: yellow;
+}
+
+main section {
+    background-color: green;
+}
+
+main .titulo-secao {
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+footer .titulo-pouco-importante {
+    color: white;
+}
+
+#rodape {
+    color: aqua;
+}
