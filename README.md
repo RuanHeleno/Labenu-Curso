@@ -11,7 +11,7 @@
 
 ## Overview
 
-A repository made to organize materials from a Bootcamp (<a href="https://github.com/labenuexercicios" target="_blank"> Labenu </a>)
+A repository made to organize materials from a Bootcamp (<a href="https://github.com/labenuexercicios"> Labenu </a>)
 
 ## Languages/Frameworks
 
@@ -22,7 +22,7 @@ A repository made to organize materials from a Bootcamp (<a href="https://github
 - [Javascript](https://www.javascript.com)
 - [Git](https://git-scm.com)
 - [Github](https://github.com)
-- [Logic]
+- Logic
 
 ### Learning
 
@@ -36,8 +36,8 @@ A repository made to organize materials from a Bootcamp (<a href="https://github
 - [Knex](https://knexjs.org)
 - [Jest](https://jestjs.io)
 - [Cloud-AWS](https://aws.amazon.com)
-- [POO]
-- [Layered-Architecture]
+- POO
+- Layered Architecture
 
 ## Author
 
