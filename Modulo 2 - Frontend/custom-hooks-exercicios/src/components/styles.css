@@ -1,0 +1,17 @@
+.Item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.Item .label {
+  flex: 1;
+}
+
+.Item .qty {
+  margin-right: 1em;
+}
+
+.Item input {
+  width: 30%;
+}
