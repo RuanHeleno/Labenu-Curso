@@ -1,0 +1,28 @@
+###Get All Users
+GET http://localhost:3003/users
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InUwMDMiLCJuYW1lIjoiQXN0cm9kZXYiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE2OTI2NTc0MDEsImV4cCI6MTY5MzI2MjIwMX0.yk9-JEl3w2iT4k2hMJ9caUy5pj_hNDLYNqkGQaNIkQc
+
+###Create a new user
+POST http://localhost:3003/users/signup
+Content-Type: application/json
+
+{
+    "name": "joão",
+    "email":"joao@gmail.com.br",
+    "password":"Joao@12345",
+    "createdAt":"agora"
+}
+
+###Get All Products
+GET http://localhost:3003/products
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InUwMDMiLCJuYW1lIjoiQXN0cm9kZXYiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE2OTI2NTc0MDEsImV4cCI6MTY5MzI2MjIwMX0.yk9-JEl3w2iT4k2hMJ9caUy5pj_hNDLYNqkGQaNIkQc
+
+###Create a new product
+POST http://localhost:3003/products
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InUwMDMiLCJuYW1lIjoiQXN0cm9kZXYiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE2OTI2NTc0MDEsImV4cCI6MTY5MzI2MjIwMX0.yk9-JEl3w2iT4k2hMJ9caUy5pj_hNDLYNqkGQaNIkQc
+
+{
+    "name": "produto03",
+    "price": 2000
+}

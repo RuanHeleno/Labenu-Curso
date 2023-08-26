@@ -1,0 +1,32 @@
+### Teste
+GET http://localhost:3003/ping
+
+###Get All courses
+GET http://localhost:3003/courses
+
+###Get a Course by NAME
+GET http://localhost:3003/courses/?q=react
+
+###Get a Course by ID
+GET http://localhost:3003/courses/c002
+
+### Create a new Course
+POST http://localhost:3003/courses
+Content-Type: application/json
+
+{
+  "id": "c004",
+  "name": "HTML 5",
+  "lessons": 3
+}
+
+###Edit a Course
+PUT http://localhost:3003/courses/c004
+Content-Type: application/json
+
+{
+  "lessons": 4
+}
+
+###Delete a Course
+DELETE  http://localhost:3003/courses/c004

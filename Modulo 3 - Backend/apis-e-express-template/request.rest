@@ -1,0 +1,35 @@
+###Teste Api
+GET http://localhost:3003
+
+###Get All Courses
+GET http://localhost:3003/courses
+
+###Create new Course
+POST http://localhost:3003/courses
+Content-Type: application/json
+
+{
+  "id": "c004",
+  "name": "HTML5",
+  "lessons": 2,
+  "stack": "Front-end"
+}
+
+###Search Courses by Name
+GET http://localhost:3003/courses/search?name=styled+components
+
+###Get All Students
+GET http://localhost:3003/students
+
+###Search Students by Name
+GET http://localhost:3003/students/search?name=samuquete
+
+###Create new Student
+POST http://localhost:3003/students
+Content-Type: application/json
+
+{
+  "id": "s005",
+  "name": "Italo",
+  "age": 25
+}

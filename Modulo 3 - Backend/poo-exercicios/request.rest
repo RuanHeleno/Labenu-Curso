@@ -1,0 +1,34 @@
+### Teste
+GET http://localhost:3003/ping
+
+###Get All Videos
+GET http://localhost:3003/videos
+
+###Get a Video by NAME
+GET http://localhost:3003/videos/?q=2
+
+###Get a Video by ID
+GET http://localhost:3003/videos/v003
+
+### Create a new Video
+POST http://localhost:3003/videos
+Content-Type: application/json
+
+{
+  "id": "v003",
+  "titulo": "Pantera Negra 3",
+  "duracaoEmSegundos": 4800,
+  "dataDeUpload": "20/06/2024"
+}
+
+###Edit a Video
+PUT http://localhost:3003/videos/v003
+Content-Type: application/json
+
+{
+  "titulo": "Procurando Nemo",
+  "duracaoEmSegundos": 3800
+}
+
+###Delete a Video
+DELETE  http://localhost:3003/videos/v003

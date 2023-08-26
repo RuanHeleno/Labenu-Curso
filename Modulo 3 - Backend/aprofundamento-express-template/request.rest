@@ -1,0 +1,43 @@
+###Get all accounts
+GET http://localhost:3003/accounts
+
+###Get Account By ID
+GET http://localhost:3003/accounts/a001
+
+###Edit Account By ID
+PUT http://localhost:3003/accounts/a002
+Content-Type: application/json
+
+{
+  "ownerName": "Ruan",
+  "type": "Platina"
+}
+
+###Delete Account By ID
+DELETE http://localhost:3003/accounts/a002
+
+###Get all Pets
+GET http://localhost:3003/pets
+
+###Post new Pet
+POST http://localhost:3003/pets
+Content-Type: application/json
+
+{
+  "id": "p003",
+  "name": "Mimi",
+  "type": "Cat",
+  "age": 3,
+  "color": "gray"
+}
+
+###Edit new Pet
+PUT http://localhost:3003/pets/p001
+Content-Type: application/json
+
+{
+  "age": 8
+}
+
+###Delete new Pet
+DELETE  http://localhost:3003/pets/p002

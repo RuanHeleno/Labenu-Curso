@@ -1,0 +1,25 @@
+###Get all bands
+GET http://localhost:3003/bands
+
+###Post new band
+POST http://localhost:3003/bands
+Content-Type: application/json
+
+{
+  "id": "b004",
+  "name": "Maroon Five"
+}
+
+###Edit a band
+PUT http://localhost:3003/bands/b004
+Content-Type: application/json
+
+{
+  "name": "Linkin Park"
+}
+
+###Delete a band
+DELETE http://localhost:3003/bands/b004
+
+###Get all songs
+GET http://localhost:3003/songs

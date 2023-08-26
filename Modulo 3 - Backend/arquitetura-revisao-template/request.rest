@@ -1,0 +1,26 @@
+###Get All News
+GET http://localhost:3003/news
+
+###Create a new News
+POST http://localhost:3003/news
+Content-Type: application/json
+
+{
+  "title": "Amém!",
+  "description": "Vai dar certo!",
+  "author": "a001"
+}
+
+###Edit a News
+PUT http://localhost:3003/news/n33
+Content-Type: application/json
+
+{
+  "title": "Testando 123"
+}
+
+###Delete a News
+DELETE http://localhost:3003/news/n003
+
+###Get All Authors
+GET http://localhost:3003/authors

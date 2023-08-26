@@ -1,0 +1,26 @@
+{
+  "name": "package-json-template",
+  "version": "1.0.0",
+  "description": "**Vamos utilizar esse repositório para as práticas da aula!**",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "return": "clear && node index.js brazil",
+    "letterB": "clear && node pratica2b.js b",
+    "add": "clear && node pratica2c.js aaa AA",
+    "exercise": "clear && node exercicio.js ruan 26"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuanHeleno/node-package-json-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuanHeleno/node-package-json-template/issues"
+  },
+  "homepage": "https://github.com/RuanHeleno/node-package-json-template#readme"
+}

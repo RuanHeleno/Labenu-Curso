@@ -1,0 +1,18 @@
+###Get All Accounts
+GET http://localhost:3003/accounts
+
+###Get Account by ID
+GET http://localhost:3003/accounts/a002
+
+###Delete Account by ID
+DELETE http://localhost:3003/accounts/a002
+
+###Edit Account 
+PUT http://localhost:3003/accounts/a001
+Content-Type: application/json
+
+{
+  "ownerName": "Ruan",
+  "balance": 999999999,
+  "type": "Black"
+}

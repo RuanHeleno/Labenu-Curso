@@ -1,0 +1,34 @@
+###Get All Users
+GET http://localhost:3003/users
+
+###Create a new user
+POST http://localhost:3003/users/signup
+Content-Type: application/json
+
+{
+    "name": "joão",
+    "email":"joao@gmail.com.br",
+    "password":"Joao@12345",
+    "createdAt":"agora"
+}
+
+###User login
+POST http://localhost:3003/users/login
+Content-Type: application/json
+
+{
+    "email":"joao@gmail.com.br",
+    "password":"Joao@12345"
+}
+
+###Get All Products
+GET http://localhost:3003/products
+
+###Create a new product
+POST http://localhost:3003/products
+Content-Type: application/json
+
+{
+    "name": "mouse gamer",
+    "price": 250
+}

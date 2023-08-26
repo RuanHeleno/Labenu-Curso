@@ -1,0 +1,18 @@
+-- Active: 1690847378149@@127.0.0.1@3306
+
+CREATE TABLE if NOT EXISTS cars (
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    modelo TEXT UNIQUE NOT NULL,
+    marca TEXT NOT NULL,
+    ano NUMBER NOT NULL,
+    valor NUMBER NOT NULL
+);
+
+INSERT INTO cars
+VALUES
+	("c001", "HB20", "Hyundai", 2014, 25000),
+	("c002", "HB20S", "Hyundai", 2020, 60000);
+
+SELECT * FROM cars;
+
+DROP TABLE cars;

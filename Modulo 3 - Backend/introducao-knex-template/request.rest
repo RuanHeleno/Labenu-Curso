@@ -1,0 +1,44 @@
+###Teste Api
+GET http://localhost:3003/ping
+
+###Get Bands
+GET http://localhost:3003/bands
+
+###Post new Band
+POST http://localhost:3003/bands
+Content-Type: application/json
+
+{
+  "id": "b001",
+  "name": "Maroon five"
+}
+
+###Edit new Band
+PUT http://localhost:3003/bands/b001
+Content-Type: application/json
+
+{
+  "id": "b002",
+  "name": "Forfun"
+}
+
+###Get songs
+GET http://localhost:3003/songs
+
+###Post new song
+POST http://localhost:3003/songs
+Content-Type: application/json
+
+{
+  "id": "s001",
+  "name": "Payphone",
+  "band_id": "b001"
+}
+
+###Edit new song
+PUT http://localhost:3003/songs/s001
+Content-Type: application/json
+
+{
+  "name": "Movie Like Jaegger"
+}

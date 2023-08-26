@@ -1,0 +1,34 @@
+### Teste
+GET http://localhost:3003/ping
+
+###Get All Cars
+GET http://localhost:3003/cars
+
+###Get a Car by NAME
+GET http://localhost:3003/cars/?q=20s
+
+###Get a Car by ID
+GET http://localhost:3003/cars/c003
+
+### Create a new Car
+POST http://localhost:3003/cars
+Content-Type: application/json
+
+{
+  "id": "c003",
+  "modelo": "Hilux",
+  "marca": "Toyota",
+  "ano": 2023,
+  "valor": 160000
+}
+
+###Edit a Car
+PUT http://localhost:3003/cars/c003
+Content-Type: application/json
+
+{
+  "valor": 200000
+}
+
+###Delete a Car
+DELETE  http://localhost:3003/cars/c003
