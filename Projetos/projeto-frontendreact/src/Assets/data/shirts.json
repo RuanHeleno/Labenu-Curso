@@ -1,0 +1,34 @@
+[
+  {
+    "id": 4,
+    "image": "./images/shirt1.webp",
+    "alt": "Roupa De Bebê Nasa",
+    "name": "Roupa De Bebê Nasa",
+    "price": 46.97,
+    "quantity": 1
+  },
+  {
+    "id": 5,
+    "image": "./images/shirt2.webp",
+    "alt": "Traje Infantil Espacial De Astronauta",
+    "name": "Traje Infantil Espacial De Astronauta",
+    "price": 174.24,
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "image": "./images/shirt3.webp",
+    "alt": "Conjunto Infantil Astronaura Bebê",
+    "name": "Conjunto Infantil Astronaura Bebê",
+    "price": 110.99,
+    "quantity": 1
+  },
+  {
+    "id": 7,
+    "image": "./images/shirt4.webp",
+    "alt": "Traje Infantil Astronauta Inflável",
+    "name": "Traje Infantil Astronauta Inflável",
+    "price": 261.57,
+    "quantity": 1
+  }
+]

@@ -1,0 +1,123 @@
+###Create new User
+POST http://localhost:3003/users
+Content-Type: application/json
+
+{
+  "id": "u001",
+  "name": "Ruan",
+  "email": "ruan@gmail.com",
+  "password": "Ruan@123"
+}
+
+###Get User by ID
+GET http://localhost:3003/users/u001
+
+###Get User Purchases By ID
+GET http://localhost:3003/users/u001/purchases
+
+###Get All Users
+GET http://localhost:3003/users
+
+###Edit User By ID
+PUT http://localhost:3003/users/u001
+Content-Type: application/json
+
+{
+  "password": "23"
+}
+
+###Delete User
+DELETE http://localhost:3003/users/u002
+
+
+
+###Create new Product
+POST http://localhost:3003/products
+Content-Type: application/json
+
+{
+  "id": "prod001",
+  "name": "Cadeira gamer",
+  "price": 900,
+  "description": "Melhor cadeira do mercado!",
+  "imageUrl": "https://picsum.photos/seed/Cadeira%20gamer/400"
+},
+{
+  "id": "prod002",
+  "name": "Monitor gamer",
+  "price": 700,
+  "description": "Melhor monitor do mercado!",
+  "imageUrl": "https://picsum.photos/seed/Monitor%20gamer/400"
+}
+
+###Get Products by NAME
+GET http://localhost:3003/products/?name=monitor
+
+###Get Products by ID
+GET http://localhost:3003/products/prod001
+
+###Get All Products
+GET http://localhost:3003/products
+
+###Edit Product By ID
+PUT http://localhost:3003/products/prod001
+Content-Type: application/json
+
+{
+  "price": 400
+}
+
+###Delete Product
+DELETE http://localhost:3003/products/prod001
+
+
+
+###Create new Purchase
+POST http://localhost:3003/purchases
+Content-Type: application/json
+
+{
+  "id": "pur001",
+  "buyer": "u001",
+  "products": [
+    {
+      "id": "prod001",
+      "quantity": 2
+    },
+    {
+      "id": "prod002",
+      "quantity": 1
+    }
+  ]
+}
+
+###Get Purchase by ID
+GET http://localhost:3003/purchases/pur001
+
+###Get All Purchases
+GET http://localhost:3003/purchases
+
+###Edit Purchase By ID
+PUT http://localhost:3003/purchases/pur001
+Content-Type: application/json
+
+{
+  "products": [
+    {
+      "id": "prod001",
+      "quantity": 4
+    },
+    {
+      "id": "prod002",
+      "quantity": 2
+    }
+  ]
+}
+
+###Delete Purchase by ID
+DELETE http://localhost:3003/purchases/pur002
+
+
+
+###Get All Purchases Products
+GET http://localhost:3003/purchasesProducts

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "image": "./images/toy1.webp",
+    "alt": "Robô Espacial Megazord Brinquedo Com Luz",
+    "name": "Robô Espacial Megazord Brinquedo Com Luz",
+    "price": 29.9,
+    "quantity": 1
+  },
+  {
+    "id": 1,
+    "image": "./images/toy2.webp",
+    "alt": "Carro Rover Espacial Astronautas",
+    "name": "Carro Rover Espacial Astronautas",
+    "price": 109.99,
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "image": "./images/toy3.webp",
+    "alt": "Foguete Brinquedo Astronauta Missão Espacial",
+    "name": "Foguete Brinquedo Astronauta Missão Espacial",
+    "price": 260.55,
+    "quantity": 1
+  },
+  {
+    "id": 3,
+    "image": "./images/toy4.webp",
+    "alt": "Kit Astronautas Exploradores Do Espaço",
+    "name": "Kit Astronautas Exploradores Do Espaço",
+    "price": 329.99,
+    "quantity": 1
+  }
+]
